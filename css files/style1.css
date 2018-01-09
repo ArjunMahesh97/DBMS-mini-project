@@ -1,0 +1,203 @@
+<style>
+@charset "utf-8";
+	.background
+{
+	background-image : url(background.png);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-repeat : no-repeat;
+	background-size: cover;
+	height:100%;
+  	min-height:100%;
+  	max-height:100%;
+}
+
+h2 {
+  font-family : Nexa Bold;
+	font-size : 60px;
+	color : #424A60;
+	color : rgb(66, 74, 96);
+}
+
+.NormalCharacterStyle1
+{
+	font-family : Nexa Bold;
+	font-size : 60px;
+	color : #424A60;
+	color : rgb(66, 74, 96);
+}
+.NormalCharacterStyle2
+{
+	font-family : Nexa Light;
+	font-size : 24px;
+	color : #F0ECEC;
+	color : rgb(240, 236, 236);
+}
+.NormalCharacterStyle
+{
+	font-family : Nexa Light;
+	font-size : 24px;
+	color : #E0E4EF;
+	color : rgb(224, 228, 239);
+}
+
+#aa
+{	
+	text-align:left;
+	font-family : Nexa Bold;
+	font-size : 60px;
+	color : #424A60;
+	color : rgb(66, 74, 96);
+	background : #D2CFCB;
+	background : rgba(210, 207, 203, 1);
+}
+#bb
+{
+	padding-left:850px;
+}
+.bgwidth { width: 100%; } 
+.bgheight { height: 100%; }
+ul {
+    margin: 0;
+    position: relative;
+    top:120px;
+    
+    list-style: none;
+    text-align: center;
+    font-size:25px
+}
+
+ul li {
+	z-index:9999;
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    line-height: 45px;
+    background: black;
+    font-family:Nexa bold;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+   
+}
+
+ul a:hover {
+    background-color:red;
+}
+
+ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    
+    margin-left: -240px;
+    transform: translate3d(0,0,0);
+    display:none;
+}
+
+ul li:hover ul {
+    display:inline-block;
+    color:black;
+}
+
+#cc{
+	padding: 20px;
+	font-size : 50px;
+	color : #424A60;
+	color : rgb(66, 74, 96);
+	
+}
+
+
+
+
+
+input[type=text], input[type=password] {
+   
+    padding-left:50px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin : 0 auto;
+}
+
+/* Set a style for all buttons */
+button {    
+    background-color: #4CAF50;
+    color: white;
+    padding-left:50px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#b{
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: #4CAF50;
+    color: white;
+    padding-left:50px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    margin-bot:10px;
+}
+.container {
+	position:relative;
+	top:200px;
+	width: 100%;
+    max-width: 540px;
+    
+	padding: 16px;
+    width=100%;
+    
+}
+
+.container1 {
+	position:relative;
+	top:200px;
+	left:20px;
+	width: 100%;
+    max-width: 540px;
+    border:5px solid black;
+	padding: 16px;
+    width=100%;
+    margin-left: 36%;
+    margin-bot: 100px;
+
+
+
+.container label{
+	font-size:20px;
+	font-family:Nexa Light
+}
+.signupbtn{
+	background-color: #teal;
+    color: white;
+    padding-left:50px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+.vid{
+	width:100%;
+}
+</style>
